@@ -13,7 +13,7 @@ export default async function Home() {
       from-orange-400 via-red-500 to-purple-600
       bg-clip-text text-transparent"
         >
-          Jeff!
+          Mic!
         </span>
       </h1>
 
