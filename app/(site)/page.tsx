@@ -7,7 +7,7 @@ export default async function Home() {
   return (
     <div>
       <h1 className="text-7xl font-extrabold">
-        Hello I&apos;m{" "}
+        Hi I&apos;m{" "}
         <span
           className="bg-gradient-to-r 
       from-orange-400 via-red-500 to-purple-600
@@ -17,11 +17,9 @@ export default async function Home() {
         </span>
       </h1>
 
-      <p className="mt-3 text-xl text-gray-600">
-        Hello everyone! Check out my projects!
-      </p>
+      <p className="mt-3 text-xl text-gray-600">Check out my projects!</p>
 
-      <h2 className="mt-24 font-bold text-gray-700 text-3xl">My Projects</h2>
+      <h2 className="mt-24 font-bold text-gray-700 text-3xl">Projects</h2>
       <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (
           <Link
