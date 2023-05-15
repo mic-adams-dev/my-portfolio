@@ -17,6 +17,9 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+        <title>Michael Adams</title>
+      </head>
       <body className="max-w-3xl mx-auto py-10">
         <header className="flex items-center justify-between">
           <Link

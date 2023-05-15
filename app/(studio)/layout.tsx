@@ -12,6 +12,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <title>Studio</title>
+      </head>
       <body>{children}</body>
     </html>
   );
